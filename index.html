@@ -58,6 +58,18 @@
             line-height: 1.7;
             margin-bottom: 15px;
         }
+
+        /* Optional: make layout responsive */
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .image-container img {
+                width: 250px;
+                height: 250px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -70,22 +82,25 @@
 
 <div class="container">
     <div class="image-container">
-        <img src="images/liya.png" alt="Liya Thomas">
+        <!-- 👇 Place liya.png in the same folder as this HTML file -->
+        <img src="liya.png" alt="Liya Thomas">
     </div>
     <div class="about-me-text">
         <h1>Hello, I’m Liya Thomas</h1>
-        <h2>Cyber Security Graduate | Business Analyst | Web Developer | Open to New Tech Opportunities</h2>
+        <h2>IT Support | Service Desk | Open to New Tech Opportunities</h2>
         <p>
-            I am a Cyber Security graduate from Deakin University, currently enhancing my skills through the Professional Year program at ECA.
-            With a passion for digital security, I aim to help businesses safeguard their assets and build resilient infrastructures in a rapidly changing threat landscape.
+            Hi, I’m Liya Thomas, an IT Support and Administration professional. I recently worked as an ICT Service Desk Analyst Officer at Altec College, providing first-level IT support to staff and students. My responsibilities included resolving hardware, software, and network issues, managing user accounts in Active Directory, handling password resets, and supporting Microsoft 365 applications. I also logged and tracked incidents using the ITSM ticketing system, ensuring issues were resolved efficiently and users received timely support. This role strengthened my technical troubleshooting, communication, and time management skills.
+
+            Before Altec, I worked as a Data Analyst at Cyber Security Link, where I managed customer and product data, cleaned and analyzed datasets, prepared clear reports, and provided actionable insights to support business decisions. This role gave me hands-on experience in understanding data trends, improving processes, and communicating findings effectively to teams and management.
+            
         </p>
         <p>
-            I have deep expertise in threat analysis, vulnerability assessment, and red team operations. Over the years, I have gained extensive experience 
-            working on cybersecurity challenges and successfully identifying risks, responding to incidents, and proactively implementing solutions to protect against 
-            evolving cyber threats. I believe in the power of collaboration and continuous learning, which enables me to adapt and excel in addressing diverse security challenges.
-        </p>
-        <p>
-            My previous roles include leading a team of web developers, conducting market research for cybersecurity companies, and leading red team operations for threat assessments. I have honed my problem-solving skills, as well as my ability to communicate and collaborate effectively with technical and non-technical teams. I am always excited to face new challenges and contribute to the security and growth of an organization.
+            Earlier, I gained experience in customer service and administration roles at Coles and Reddy Express, where I developed strong multitasking, problem-solving, and team support skills while maintaining smooth daily operations. I also worked in IT support at Deakin University, assisting students and staff with account configurations, password resets, and software installations, which gave me foundational experience in handling technical issues and documenting solutions accurately.
+            
+            I am proficient in Microsoft Office applications including Word, Excel, PowerPoint, and Outlook, as well as IT ticketing systems. I enjoy helping users solve technical problems, improving processes, and supporting teams to work efficiently. I am passionate about technology, continuous learning, and contributing to environments where I can apply my IT skills effectively. 
+
+        </p><p>
+            This combination of IT support, data analysis, and customer service experience makes me adaptable and ready to take on new challenges in IT support, administration, or related technology roles.
         </p>
     </div>
 </div>
